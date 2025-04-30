@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>mis trabajos</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed&display=swap");
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navbar">
+        <a href="index.html" class="logo">CATALINA FUENTES</a>
+        <ul>
+          <li><a href="mis-trabajos.html">MIS TRABAJOS</a></li>
+          <li><a href="#contacto">CONTACTOS</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section>
+      <div class="diseñogr">
+        <img src="IMAGENES/diseñog.png" alt="" />
+      </div>
+      <div class="galeria1">
+        <img src="IMAGENES/about.jpg" alt="" />
+        <img src="IMAGENES/BAUHAUS MODERNISMO.png" alt="" />
+        <img src="IMAGENES/bettercall.jpg" alt="" />
+      </div>
+    </section>
+
+    <section>
+      <div class="diseñow">
+        <img src="IMAGENES/diseñow.png" alt="" />
+      </div>
+      <div class="galeria2">
+        <img src="IMAGENES/web.png" alt="" />
+      </div>
+    </section>
+
+    <section>
+      <div class="animacion">
+        <img src="IMAGENES/animacion.png" alt="" />
+      </div>
+    </section>
+    <div class="swiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <video src="IMAGENES/FINAL FUENTES.mp4" controls></video>>
+        </div>
+        <div class="swiper-slide">
+          <video src="IMAGENES/MINION_Correcciones.mp4" controls></video>
+        </div>
+      </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script>
+      const swiper = new Swiper(".swiper", {
+        loop: true,
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        slidesPerView: 1,
+        centeredSlides: true,
+        spaceBetween: 30,
+      });
+    </script>
+
+    <footer id="contacto">
+      <div class="contenedor4">
+        <div class="contactop">
+          <img src="IMAGENES/garabatos2.png" alt="" />
+          <p>
+            Para consultas sobre trabajos/encargos, por favor utilice el
+            formulario o comunicate a:
+          </p>
+
+          <div class="contacto-items">
+            <div class="contacto-item1">
+              <img src="ICONOS/envelope-solid.svg" alt="" />
+              <a href="mailto:catalinafuentes2906@gmail.com"
+                >catalinafuentes2906@gmail.com</a
+              >
+            </div>
+            <div class="contacto-item2">
+              <img src="ICONOS/phone-solid.svg" alt="" />
+              <span>1155682906</span>
+            </div>
+            <div class="contacto-item3">
+              <img src="ICONOS/instagram-brands.svg" alt="" />
+              <span>@Ctalinafuentes</span>
+            </div>
+          </div>
+        </div>
+        <div class="contactof">
+          <form action="">
+            <div class="email">
+              <label for="">Email</label>
+              <input type="email" name="" id="" required />
+            </div>
+            <div class="mensaje">
+              <label for="">Mensaje</label>
+              <textarea name="" id="" required></textarea>
+            </div>
+            <div class="enviar">
+              <input type="submit" value="Enviar mensaje" />
+            </div>
+          </form>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

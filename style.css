@@ -1,0 +1,557 @@
+body {
+    background-color:#F3F4EC ;
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background: #F3F4EC;
+  border-bottom: 1px solid #1C1C1B;
+  padding: 13px;
+  font-family: 'Fira Sans Condensed', sans-serif;
+  font-weight: lighter;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    font-weight: lighter;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #1C1C1B;
+    font-weight: lighter;
+  }
+
+.logo {
+    text-decoration: none;
+    color: #1C1C1B;
+   margin-top: 15px
+}
+
+.intro {
+    
+        text-align: center;
+        margin-top: 3rem;
+        display: flex;
+  justify-content: center;
+  align-items: center;
+        
+}
+
+.intro div {
+  width: 800px; ;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.intro h2{
+  font-family: 'Fira Sans Condensed', sans-serif;
+  font-weight: lighter;
+  color: #1C1C1B;
+}
+
+.intro img {
+    width: 680px;
+    height: 250px;
+    
+  }
+
+.boton {
+  text-decoration: none;
+  color: #1C1C1B;
+  padding-top: 15px;
+padding-bottom: 15px;
+padding-left: 25px;
+padding-right: 25px;
+  border: 1px solid #1C1C1B;
+  border-radius: 30px;
+  font-family: 'Fira Sans Condensed', sans-serif;
+}
+
+.sobre-mi {
+    
+  text-align: center;
+  margin-top: 3rem;
+  display: flex;
+justify-content: center;
+align-items: center;
+  
+}
+
+.titulo1 {
+  text-align: center;
+  margin-top: 130px;
+  font-size: 40px;
+  max-width: 500px;
+  line-height: 1.5;
+}
+
+
+.contenedor1 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  
+  
+}
+
+.imagen1{
+height: auto;
+width: 50%;
+}
+.imagen1 img{
+height: auto;
+width: 85%;
+margin-top: 40px;
+margin-left: 70px;
+}
+
+.parrafo1{
+  height: auto;
+width: 50%;
+align-items: center;
+margin-top: 150px;
+
+}
+
+.parrafo1 img {
+  width: 50%;
+  height: auto;
+  padding-left: 35px;
+}
+.parrafo1 p{
+height: auto;
+width: 100%;
+font-size: 16px;
+display: flex;
+text-align: left;
+max-width: 500px;
+line-height: 1.5;
+font-family: 'Fira Sans Condensed', sans-serif;
+padding-left: 35px;
+}
+
+.cv{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: start;
+  padding-left: 85px;
+  padding-right: 85px;
+  margin-top: 50px;
+}
+
+.contenedor2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 25px;
+}
+
+
+
+
+.contenedor2 p{
+  height: auto;
+  width: 100%;
+  font-size: 16px;
+  display: flex;
+  text-align: start;
+  max-width: 600px;
+  line-height: 1.5;
+  }
+
+ .estudios {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+
+
+ 
+  .estudiosp {
+    
+    
+    font-family: 'Fira Sans Condensed', sans-serif;
+  }
+
+
+  .png-estudios img {
+    width: 90%;
+    height: auto;
+    display: flex;
+    margin-left: 60px;
+  }
+
+  .contenedor3 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    
+  }
+
+  .contenedor3 p{
+    height: auto;
+    width: 100%;
+    font-size: 16px;
+    display: flex;
+    text-align: start;
+    max-width: 600px;
+    line-height: 1.5;
+    }
+  
+    .experienciasp {
+      
+      font-family: 'Fira Sans Condensed', sans-serif;
+      padding: 25px;
+
+    }
+
+
+    .habilidades {
+      margin-bottom: 55px;
+      
+    }
+
+    .habilidades img {
+      width: 52%;
+      height: auto;
+      display: flex;
+      padding-left: 95px;
+    }
+
+    
+
+    .contenedor4 {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      width: 1000px;
+      height: 350px;
+      margin-top: 200px;
+      
+      
+     
+    }
+    
+
+    .contenedor4 p{
+      height: auto;
+      width: 100%;
+      font-size: 15px;
+      display: flex;
+      text-align: start;
+      max-width: 300px;
+      line-height: 1.5;
+      }
+
+     #contacto {
+      width: 100%;
+      height: auto;
+     margin-bottom: 50px;
+     
+      
+     }
+
+     
+     .charlemos {
+      width: 50%;
+     }
+     .contcatop img {
+      width: 25%;
+      height: auto;
+      
+     }
+      
+    .contactop {
+      width: 50% ;
+      height: auto;
+      font-family: 'Fira Sans Condensed', sans-serif;
+    }
+
+    .contacto-items {
+      height: auto;
+      width: 50%;
+      font-size: 15px;
+      display: flex;
+      flex-direction: column;
+      text-align: start;
+      max-width: 300px;
+      line-height: 1.5;
+      font-family: 'Fira Sans Condensed', sans-serif;
+  
+    }
+
+    .contacto-item1 img {
+      height: auto;
+      width: 8%;
+      
+    }
+
+    .contacto-item2 img {
+      height: auto;
+      width: 8%;
+    }
+
+    .contacto-item3 img {
+      height: auto;
+      width: 8%;
+    }
+    
+.contactof{
+  width: 100px;
+  height: 100px;
+  font-family: 'Fira Sans Condensed', sans-serif;
+  display: flex;
+  margin-left: 200px;
+  margin-bottom: 80px;
+}
+
+    .email {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 15px;
+      width: 300px;
+      
+    }
+    
+    .mensaje {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 15px;
+    }
+
+    textarea {
+      height: 60px;
+      background-color: #F3F4EC;
+      border-color: #1C1C1B;
+      font-family: 'Fira Sans Condensed', sans-serif;
+    }
+
+    input {
+      height: 30px;
+      background-color: #F3F4EC;
+      border: 1px solid #1C1C1B;
+      font-family: 'Fira Sans Condensed', sans-serif;
+    }
+
+
+    .diseñogr {
+      display: flex;
+      
+
+    }
+
+    .diseñogr img {
+      margin-left: 500px;
+      width: 20%;
+      height: auto;
+      
+    }
+    
+    .galeria1 {
+      display: flex;
+      align-items: center;
+      margin-left: 100px;
+      
+    }
+    .galeria1 img {
+      width: 25%;
+      height: auto;
+      padding: 2rem;
+      align-items: center;
+      
+    }
+
+    .diseñow img {
+      margin-left: 500px;
+      width: 20%;
+      height: auto;
+      margin-top: 100px;
+    }
+
+    .galeria2 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      
+      
+      
+    }
+
+    .galeria2 img {
+      width: 95%;
+      height: auto;
+      
+    }
+
+    .animacion img {
+      margin-left: 500px;
+      width: 20%;
+      height: auto;
+      margin-top: 50px;
+    }
+
+    .swiper {
+      width: 100%;
+      height: 90vh; 
+    }
+    
+    .swiper-slide {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+     
+    }
+    
+    .swiper-slide video {
+      width: 80%;
+      height: auto;
+      border-radius: 20px;
+      margin-left: 130px;
+      box-shadow: 0px 10px 20px rgba(0,0,0,0.2);
+      
+    }
+    
+   
+    .swiper-button-next,
+    .swiper-button-prev {
+      color: #1C1C1B; 
+    }
+
+    @media (min-width:0px) and (max-width:580px) {
+      .navbar {
+        font-size: 13px;
+        padding: 1rem;
+      }
+      .intro img {
+        width: 85%;
+        height: auto;
+      }
+
+      .intro h2 {
+        font-size: 15px;
+      }
+      
+      #sobre-mi {
+        display: ;
+        align-items: center;
+      }
+
+      .imagen1 {
+        display: none;
+      }
+
+      .parrafo1 {
+        width: 80%;
+       
+      }
+
+      .parrafo1 img {
+        width: 40%;
+      }
+
+      .parrafo1 p {
+        font-size: 15px;
+        
+      }
+
+      .cv {
+        flex-direction: column;
+        align-items: center;
+        padding-left: 15px;
+      }
+
+     .habilidades img {
+      width: 90%;
+      padding-left: 25px;
+     } 
+     .contenedor4 {
+      justify-content: start;
+      padding-left: 25px;
+      flex-direction: column;
+      width: 50%;
+     }
+     
+     .contenedor4 p{
+      font-size: 12px;
+     }
+
+     .charlemos {
+      width:50% ;
+     }
+
+     .contactop {
+      width: 100%;
+     }
+     .contcatof {
+      margin-left:none;
+      margin-bottom: none;
+      
+      justify-content: start;
+     }
+
+     .diseñogr img {
+      margin-left: 160px;
+      height: auto;
+      width: 40%;
+     }
+
+     .galeria1 {
+      justify-content: center;
+      margin-left: 0px;
+     }
+
+     .galeria1 img {
+      padding: 0.5rem;
+      width: 28%;
+     }
+     .diseñow img {
+      margin-left: 160px;
+      height: auto;
+      width: 40%;
+     }
+
+     .galeria2 img {
+      width: 100%;
+      height: auto;
+     }
+
+     .animacion img {
+      margin-left: 160px;
+      height: auto;
+      width: 40%;
+     }
+
+     .swiper-wrapper video {
+     margin-left: 50px;
+     }
+  }
+
+    @media (min-width:581px) and (max-width:990px) {
+
+    }
+    
+    @media (min-width:991px){
+	
+    }
+
+
+    
+
+
+
+  
