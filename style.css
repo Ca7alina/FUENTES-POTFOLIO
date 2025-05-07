@@ -112,11 +112,16 @@ height: auto;
 width: 50%;
 }
 .imagen1 img{
-height: auto;
-width: 85%;
-margin-top: 40px;
-margin-left: 70px;
-}
+  height: auto;
+  width: 85%;
+  margin-top: 40px;
+  margin-left: 70px;
+  transition: transform 0.3s ease;
+  }
+  
+  .imagen1 img:hover {
+    transform: scale(1.1); 
+  }
 
 .parrafo1{
   height: auto;
@@ -373,7 +378,12 @@ padding-left: 35px;
       height: auto;
       padding: 2rem;
       align-items: center;
+      transition: transform 0.3s ease;
       
+    }
+    
+    .galeria1 img:hover {
+      transform: scale(1.1); 
     }
 
     .diseñow img {
@@ -432,122 +442,167 @@ padding-left: 35px;
       color: #1C1C1B; 
     }
 
-    @media (min-width:0px) and (max-width:580px) {
-      .navbar {
-        font-size: 13px;
-        padding: 1rem;
-      }
-      .intro img {
-        width: 85%;
-        height: auto;
-      }
-
-      .intro h2 {
-        font-size: 15px;
-      }
-      
-      #sobre-mi {
-        display: ;
-        align-items: center;
-      }
-
-      .imagen1 {
-        display: none;
-      }
-
-      .parrafo1 {
-        width: 80%;
-       
-      }
-
-      .parrafo1 img {
-        width: 40%;
-      }
-
-      .parrafo1 p {
-        font-size: 15px;
-        
-      }
-
-      .cv {
-        flex-direction: column;
-        align-items: center;
-        padding-left: 15px;
-      }
-
-     .habilidades img {
-      width: 90%;
-      padding-left: 25px;
-     } 
-     .contenedor4 {
-      justify-content: start;
-      padding-left: 25px;
-      flex-direction: column;
-      width: 50%;
-     }
+    @media only screen and (min-width:0px) and (max-width:580px) {
      
-     .contenedor4 p{
-      font-size: 12px;
-     }
-
-     .charlemos {
-      width:50% ;
-     }
-
-     .contactop {
-      width: 100%;
-     }
-     .contcatof {
-      margin-left:none;
-      margin-bottom: none;
+      .navbar ul {
+        margin-right: 30px;
+      }
+        
+       .contactof {
+        margin-bottom: 0;
+        align-items: flex-start;
+        width: 100%;
+        
+        
+       }
+  
+       form {
+        
+        width: 80%;
+        padding-top: 20px;
+        
+        
+       }
+       
       
-      justify-content: start;
-     }
-
-     .diseñogr img {
-      margin-left: 160px;
-      height: auto;
-      width: 40%;
-     }
-
-     .galeria1 {
-      justify-content: center;
-      margin-left: 0px;
-     }
-
-     .galeria1 img {
-      padding: 0.5rem;
-      width: 28%;
-     }
-     .diseñow img {
-      margin-left: 160px;
-      height: auto;
-      width: 40%;
-     }
-
-     .galeria2 img {
-      width: 100%;
-      height: auto;
-     }
-
-     .animacion img {
-      margin-left: 160px;
-      height: auto;
-      width: 40%;
-     }
-
-     .swiper-wrapper video {
-     margin-left: 50px;
-     }
-  }
-
-    @media (min-width:581px) and (max-width:990px) {
-
+        .navbar {
+          font-size: 13px;
+          padding: 1rem;
+          width: 100%;
+        }
+        .intro img {
+          width: 85%;
+          height: auto;
+        }
+  
+        .intro h2 {
+          font-size: 15px;
+        }
+        
+        #sobre-mi {
+          
+          align-items: center;
+        }
+  
+        .imagen1 {
+          display: none;
+        }
+  
+        .parrafo1 {
+          width: 80%;
+         
+        }
+  
+        .parrafo1 img {
+          width: 40%;
+        }
+  
+        .parrafo1 p {
+          font-size: 15px;
+          
+        }
+  
+      .cv {
+          flex-direction: column;
+          align-items: center;
+          padding-left: 15px;
+      }
+  
+      .habilidades img {
+        width: 90%;
+        padding-left: 25px;
+       } 
+       .contenedor4 {
+        justify-content: start;
+        flex-direction: column;
+        width: 80%;
+        height: auto;
+        padding-left: 30px;
+       }
+       
+       .contenedor4 p{
+        font-size: 12px;
+       }
+  
+       .charlemos {
+        width:50% ;
+       }
+       .contactop {
+         width: 100%;
+         margin: 0;
+         padding-left: 10px;
+       }
+      
+  
+       .diseñogr img {
+        margin-left: 160px;
+        height: auto;
+        width: 40%;
+       }
+  
+       .galeria1 {
+        justify-content: center;
+        margin-left: 0px;
+       }
+  
+       .galeria1 img {
+        padding: 0.5rem;
+        width: 28%;
+       }
+       .diseñow img {
+        margin-left: 160px;
+        height: auto;
+        width: 40%;
+       }
+  
+       .galeria2 img {
+        width: 100%;
+        height: auto;
+       }
+  
+       .animacion img {
+        margin-left: 160px;
+        height: auto;
+        width: 40%;
+       }
+  
+       .swiper-wrapper video {
+       margin-left: 50px;
+       }
+  
+      
     }
+  
+      @media (min-width:581px) and (max-width:990px) {
+      
+      .parrafo1 {
+        width: 35%;
+      }
+  
+      .habilidades img {
+        width: 65%;
+      }
+  
+      .diseñogr img {
+        width: 30%;
+        margin-left: 40%;
+      }
+  
+      .diseñow img {
+        width: 30%;
+        margin-left: 40%;
+      }
+  
+      .animacion img {
+        margin-left: 40%;
+        width: 30%;
+      }
+  
+      }
+      
+      @media (min-width:991px){
     
-    @media (min-width:991px){
-	
-    }
+      }
 
 
     
